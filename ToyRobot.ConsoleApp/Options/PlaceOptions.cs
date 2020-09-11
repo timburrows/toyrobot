@@ -7,10 +7,10 @@ namespace ToyRobot.ConsoleApp.Options
     public class PlaceOptions
     {
         [Value(0, Required = true)]
-        public uint PosX { get; set; }
+        public int PosX { get; set; }
             
         [Value(1, Required = true)]
-        public uint PosY { get; set; }
+        public int PosY { get; set; }
             
         [Value(2, Required = true)]
         public CardinalDirection Facing { get; set; }
