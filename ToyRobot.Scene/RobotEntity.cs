@@ -74,7 +74,7 @@ namespace ToyRobot.Scene
 
         public void Report()
         {
-            Console.WriteLine($"{GetPosition().X},{GetPosition().Y},{Orientation.FromVector(GetOrientation()).CardinalDirection}");
+            Console.WriteLine($"{(int)GetPosition().X},{(int)GetPosition().Y},{Orientation.FromVector(GetOrientation()).CardinalDirection}");
         }
     }
 }
